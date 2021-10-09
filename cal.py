@@ -3,8 +3,6 @@ obj=Tk()
 obj.title("calculator")
 obj.geometry("160x280+100+50")
 
-
-
 textin=StringVar()
 operator=""
 
@@ -59,12 +57,10 @@ b12=Button(obj,text="+",width=4,command=lambda:clickbut("+"))
 b13=Button(obj,text="1",width=4,command=lambda:clickbut(1))
 b14=Button(obj,text="2",width=4,command=lambda:clickbut(2))
 b15=Button(obj,text="3",width=4,command=lambda:clickbut(3))
-b16=Button(obj,text="=",width=4,height=3,bg="cyan",command=equalbut)
+b16=Button(obj,text="==",width=4,height=3,bg="cyan",command=equalbut)
 
 b17=Button(obj,text="0",width=9,command=lambda:clickbut(0))
 b18=Button(obj,text=".",width=4,command=lambda:clickbut("."))
-
-
 
 b1.place(x=0,y=130,)
 b2.place(x=120,y=130)
@@ -84,7 +80,5 @@ b16.place(x=120,y=220)
 
 b17.place(x=0,y=250)
 b18.place(x=80,y=250)
-
-
 
 obj.mainloop()
