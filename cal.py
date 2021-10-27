@@ -57,7 +57,7 @@ b12=Button(obj,text="+",width=4,command=lambda:clickbut("+"))
 b13=Button(obj,text="1",width=4,command=lambda:clickbut(1))
 b14=Button(obj,text="2",width=4,command=lambda:clickbut(2))
 b15=Button(obj,text="3",width=4,command=lambda:clickbut(3))
-b16=Button(obj,text="==",width=4,height=3,bg="cyan",command=equalbut)
+b16=Button(obj,text="==",width=4,height=3,bg="black",command=equalbut)
 
 b17=Button(obj,text="0",width=9,command=lambda:clickbut(0))
 b18=Button(obj,text=".",width=4,command=lambda:clickbut("."))
